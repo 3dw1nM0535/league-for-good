@@ -1,0 +1,19 @@
+# Help developers define and maintain consistence
+# coding styles across different editors and IDEs
+
+root = true
+
+[*]
+trim_trailing_whitespace = true
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+end_of_line = lf
+charset = utf-8
+
+[package.json]
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = true
